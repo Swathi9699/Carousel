@@ -1,0 +1,6 @@
+{
+  "name": "CarouselForge AI — Social Media Carousel Generator for Gifts",
+  "description": "Generate high-converting, aesthetic social media carousels and captions from any topic for snazzy-gnome gifts website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

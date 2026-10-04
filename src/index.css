@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-modern-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-luxury-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for horizontal carousel strips and sidebars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(28, 25, 23, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 113, 108, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.6);
+}
